@@ -27,8 +27,8 @@ Please feel free to contact me:
 <h2 align="left">Key Components</h2>
 <a href="https://www.linkedin.com/in/lucas-kawasaki/">
 <img align="left" src="https://skillicons.dev/icons?i=python,flask">
-</a>
 Backend framework to handle routes for home, about, portfolio and contact pages, along with email configurations using Flask-Mail.
+</a>
 
 <img align="left" src="https://skillicons.dev/icons?i=javascript">
 
