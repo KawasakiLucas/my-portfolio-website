@@ -2,14 +2,8 @@
 
 <img align="center" src="https://github.com/KawasakiLucas/my-portfolio-website/blob/master/static/images/website.gif">
 
-**[Portfolio Website](https://kawasakilucas.pythonanywhere.com/)** A personal portfolio website built using Python (Flask), HTML, CSS, and JavaScript. It showcases multilingual support, a functional contact form, and responsive design for various screen sizes.
+**[Website](https://kawasakilucas.pythonanywhere.com/)**: A personal portfolio website built using Python (Flask), HTML, CSS, and JavaScript. It showcases multilingual support, a functional contact form, and responsive design for various screen sizes.
 
-
-<!-- <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,html,css,javascript,flask" />
-  </a>
-</p> -->
 
 Please feel free to contact me:
 <p align="left">
@@ -19,6 +13,7 @@ Please feel free to contact me:
 </p>
 
 <h2 align="left">Features</h2>
+
 - Multilingual Support: The website is available in English, Japanese and Portuguese. Users can switch languages dynamically using buttons, with language preferences stored in localStorage for consistency across pages.
 
 - Contact Form: Integrated with Flask-Mail for handling form submissions. The contact form allows visitors to send messages directly to the specified email address.
@@ -32,21 +27,15 @@ Please feel free to contact me:
 <h2 align="left">Key Components</h2>
 <img align="left" src="https://skillicons.dev/icons?i=python,flask">
 
-Backend framework to handle routes for home, about, portfolio, and contact pages, along with email configurations using Flask-Mail.
-
-<br />
+Backend framework to handle routes for home, about, portfolio and contact pages, along with email configurations using Flask-Mail.
 
 <img align="left" src="https://skillicons.dev/icons?i=html">
 
 Modular templates for different sections of the website, ensuring consistency and easy updates.
 
-<br />
-
 <img align="left" src="https://skillicons.dev/icons?i=css">
 
 Styling for the layout, design, and responsive features to ensure the website is visually appealing across different devices.
-
-<br />
 
 <img align="left" src="https://skillicons.dev/icons?i=javascript">
 
