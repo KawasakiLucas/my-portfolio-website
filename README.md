@@ -27,22 +27,22 @@ A personal portfolio website built using Python (Flask), HTML, CSS, and JavaScri
 <br /> -->
 
 <h2 align="left">Features</h2>
-- Multilingual Support: The website is available in English, Japanese and Portuguese,. Users can switch languages dynamically using buttons, with language preferences stored in localStorage for consistency across pages.
+- Multilingual Support: The website is available in English, Japanese and Portuguese. Users can switch languages dynamically using buttons, with language preferences stored in localStorage for consistency across pages.
 - Contact Form: Integrated with Flask-Mail for handling form submissions. The contact form allows visitors to send messages directly to the specified email address.
 - Responsive Design: The website is styled to be responsive, ensuring optimal viewing on desktops, tablets, and smartphones.
 - Dynamic Content: JavaScript is used to dynamically update page content based on user interactions and language preferences.
 
-<!-- <br />
-<h2 align="left">Tools</h2>
-- Python (Flask): Backend framework for handling routing, form submissions, and email sending.
-- HTML: Markup language for structuring the web pages.
-- CSS: Styling for the layout, design, and responsive features.
-- JavaScript: For dynamic content updates, language switching, and form interactions. -->
 
 <br />
 <h2 align="left">Key Components</h2>
+<img align="left" width="250" height="150" src="https://skillicons.dev/icons?i=python,flask">
+
+Backend framework to handle routes for home, about, portfolio, and contact pages, along with email configurations using Flask-Mail.
+
+<br />
+
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=python,flask" />
+  <img src="https://skillicons.dev/icons?i=python,flask">
   Backend framework to handle routes for home, about, portfolio, and contact pages, along with email configurations using Flask-Mail.
 </p>
 <p align="left">
