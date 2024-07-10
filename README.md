@@ -29,17 +29,17 @@ Please feel free to contact me:
 
 Backend framework to handle routes for home, about, portfolio and contact pages, along with email configurations using Flask-Mail.
 
-<img align="left" src="https://skillicons.dev/icons?i=html">
+<img align="left" src="https://skillicons.dev/icons?i=javascript">
 
-Modular templates for different sections of the website, ensuring consistency and easy updates.
+For dynamic content updates, language switching, storing user preferences, and handling form interactions.
 
 <img align="left" src="https://skillicons.dev/icons?i=css">
 
 Styling for the layout, design, and responsive features to ensure the website is visually appealing across different devices.
 
-<img align="left" src="https://skillicons.dev/icons?i=javascript">
+<img align="left" src="https://skillicons.dev/icons?i=html">
 
-For dynamic content updates, language switching, storing user preferences, and handling form interactions.
+Modular templates for different sections of the website, ensuring consistency and easy updates.
 
 <br />
 
