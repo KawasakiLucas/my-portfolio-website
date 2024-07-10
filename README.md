@@ -35,16 +35,17 @@ A personal portfolio website built using Python (Flask), HTML, CSS, and JavaScri
 
 <br />
 <h2 align="left">Key Components</h2>
-<img align="left" width="250" height="150" src="https://skillicons.dev/icons?i=python,flask">
+<img align="left" src="https://skillicons.dev/icons?i=python,flask">
 
 Backend framework to handle routes for home, about, portfolio, and contact pages, along with email configurations using Flask-Mail.
 
 <br />
 
-<p align="left">
+<!-- <p align="left">
   <img src="https://skillicons.dev/icons?i=python,flask">
   Backend framework to handle routes for home, about, portfolio, and contact pages, along with email configurations using Flask-Mail.
-</p>
+</p> -->
+
 <p align="left">
     <img src="https://skillicons.dev/icons?i=html" />
   Modular templates for different sections of the website, ensuring consistency and easy updates.
