@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to my Multilingual Personal Portfolio Website</h1>
 
-<img align="center" src="https://github.com/KawasakiLucas/portfolio/blob/master/Images/website.png">
+<img align="center" src="https://github.com/KawasakiLucas/portfolio/blob/master/static/images/website.png">
 
 
 <p align="center">
@@ -18,7 +18,7 @@ Please feel free to contact me:
 
 <h1 align="center">Multilingual Personal Portfolio Website</h1>
 
-<img align="left" width="250" height="150" src="https://github.com/KawasakiLucas/portfolio/blob/master/Images/website.png"> **[Portfolio Website](https://kawasakilucas.pythonanywhere.com/)**
+<img align="left" width="250" height="150" src="https://github.com/KawasakiLucas/portfolio/blob/master/static/images/website.png"> **[Portfolio Website](https://kawasakilucas.pythonanywhere.com/)**
 
 This project is a personal portfolio website built using Python (Flask), HTML, CSS, and JavaScript. It showcases multilingual support, a functional contact form, and responsive design for various screen sizes.
 
