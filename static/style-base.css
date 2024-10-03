@@ -49,6 +49,13 @@
   font-family: var(--font-family);
 }
 
+/**,*/
+/**::before,*/
+/**::after {*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+
 html, body {
   font: 62.5%;
   margin: 0;
@@ -74,7 +81,7 @@ body {
   padding: 2rem 9%;
   background: transparent;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* original: space-between */
   align-items: center;
   z-index: 100;
 }
@@ -227,3 +234,670 @@ section {
 } */
 /*---------------- ImgHover ----------------*/
 /*--------------------------- SECTION ---------------------------*/
+
+/*----------------------------------- BREAK POINTS -----------------------------------*/
+/*------------------------------- max-width:1280px -------------------------------*/
+@media (max-width:1680px){
+  /*---------------------- ALL PAGES ----------------------*/
+  /*--------------- SECTION ---------------*/
+  section .language-buttons {
+    margin: 0 -1.3rem 0 0;
+  }
+  section .social-media {
+    margin: 0 -1.3rem 0 0;
+  }
+  /*--------------- SECTION ---------------*/
+  /*---------------------- ALL PAGES ----------------------*/
+}
+/*------------------------------- max-width:1280px -------------------------------*/
+/*------------------------------- max-width:1024px -------------------------------*/
+@media (max-width:1280px){
+  /*---------------------- ALL PAGES ----------------------*/
+  /*--------------- SECTION ---------------*/
+  section .language-buttons {
+    margin: 0 -2.5rem 0 0;
+  }
+  section .social-media {
+    margin: 0 -2.5rem 0 0;
+  }
+  /*--------------- SECTION ---------------*/
+  /*---------------------- ALL PAGES ----------------------*/
+      /*---------------------- INDEX PAGE ----------------------*/
+  section .index_content {
+    max-width: 30rem;
+  }
+  section .index_content h1{
+    max-width: 30rem;
+  }
+  section .index_content .text-animate h2 {
+    max-width: 30rem;
+  }
+  section .index_content p {
+    /*font-size: 1.2rem;*/
+    max-width: 30rem;
+  }
+  section .index_content .btn-box {
+    max-width: 30rem;
+  }
+  /*---------------------- INDEX PAGE ----------------------*/
+  /*---------------------- ABOUT PAGE ----------------------*/
+  section .about_content {
+    width: 30rem;
+  }
+  section .about_content h1{
+    /*font-size: 2.6rem;*/
+  }
+  section .about_content p {
+    max-width: 30rem;
+  }
+  section .about_content .btn-box {
+    width: 30rem;
+  }
+  section .about_content .btn-box .tab_links {
+    width: 30rem;
+  }
+  /*--------------- TABS ---------------*/
+  #tools {
+    width: 30rem;
+  }
+  #tools ul li img {
+    /*width: 3.5rem;*/
+    /*height: 3.5rem;*/
+    /*margin: 0 0 0 0;*/
+  }
+  #tools ul li {
+    /*margin: 0 0.5rem 0 0;*/
+  }
+  #skills {
+    width: 30rem;
+  }
+  section .about_content #skills ul li.skills_title {
+    /*font-size: 1.1rem;*/
+    width: 30rem;
+  }
+  section .about_content #skills ul li.skills_text {
+    /*font-size: 0.9rem;*/
+    width: 30rem;
+  }
+  #education {
+    width: 30rem;
+  }
+  section .about_content #education ul li.education_title {
+    /*font-size: 1.1rem;*/
+    width: 30rem;
+  }
+  section .about_content #education ul li.education_text {
+    /*font-size: 0.9rem;*/
+    width: 30rem;
+  }
+  /*--------------- TABS ---------------*/
+  /*---------------------- ABOUT PAGE ----------------------*/
+  /*---------------------- PORTFOLIO PAGE ----------------------*/
+  section .portfolio_content {
+    width: 30rem;
+    /*top: 6rem;*/
+  }
+  section .portfolio_content h1{
+    /*font-size: 2.6rem;*/
+  }
+  /*--------------- TABS ---------------*/
+  section .portfolio_content .btn-box {
+    width: 30rem;
+    /*height: 4rem;*/
+  }
+  section .portfolio_content .btn-box .tab_links {
+    /*font-size: 1.0rem;*/
+    /*margin: 0 0 0 0;*/
+    /*justify-content: left;*/
+  }
+  section .portfolio_content .tab_content ul li.item .text h4{
+    /*font-size: 1.2rem;*/
+  }
+  section .portfolio_content .tab_content ul li.item .text p{
+    /*font-size: 0.9rem;*/
+  }
+  section .portfolio_content .link {
+      /*font-size: 0.9rem;*/
+  }
+  /*--------------- TABS ---------------*/
+  /*---------------------- PORTFOLIO PAGE ----------------------*/
+  /*---------------------- CONTACT PAGE ----------------------*/
+  section .contact_content {
+    width: 30rem;
+    /*top: 9rem;*/
+  }
+  section .contact_content h1{
+    /*font-size: 2.6rem;*/
+  }
+ section .contact_content .contact_form .form_item {
+    width: 30rem;
+  }
+  /*---------------------- CONTACT PAGE ----------------------*/
+}
+/*------------------------------- max-width:1024px -------------------------------*/
+/*------------------------------- max-width:972px -------------------------------*/
+@media (max-width:972px){
+  /*---------------------- ALL PAGES ----------------------*/
+  /*--------------- HEADER ---------------*/
+  .navbar a {
+    margin-left: 1.5rem;
+  }
+  /*--------------- HEADER ---------------*/
+  /*---------------------- ALL PAGES ----------------------*/
+}
+/*------------------------------- max-width:972px -------------------------------*/
+/*------------------------------- max-width:830px -------------------------------*/
+@media (max-width:830px){
+  /*---------------------- ALL PAGES ----------------------*/
+  /*--------------- HEADER ---------------*/
+  header {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  header #menu-icon {
+      margin-right: -1rem;
+  }
+  #menu-icon {
+      display: block;
+      left: 10rem;
+  }
+  .navbar {
+      position: absolute;
+      top: -19.5rem;
+      left: 0;
+      width:100%;
+      padding: 0 2.45rem;
+      background: var(--bg-color);
+      z-index: -1;
+      display: none;
+  }
+  .navbar.active {
+      top: 6rem;
+      display: block;
+  }
+  .navbar a {
+      display: block;
+      font-size: 2rem;
+      margin: 3rem 0;
+      transition: translateX(-20rem);
+      transition: 2s ease;
+      transition-delay: 0s;
+  }
+  /*--------------- HEADER ---------------*/
+  /*--------------- SECTION ---------------*/
+  section .language-buttons {
+    margin: 3rem -6rem 0 0;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  section .social-media {
+    margin: 0 -6rem 0 0;
+    bottom: 2rem;
+  }
+  /*--------------- SECTION ---------------*/
+
+  /*---------------------- ALL PAGES ----------------------*/
+  /*---------------------- INDEX PAGE ----------------------*/
+  section .index_content {
+    max-width: 25rem;
+    bottom: 15rem;
+    position: fixed;
+  }
+  section .index_content h1{
+    font-size: 2.8rem;
+    max-width: 25rem;
+    bottom: 6rem;
+  }
+  section .index_content .text-animate h2 {
+    font-size: 2.2rem;
+    max-width: 25rem;
+  }
+  section .index_content p {
+    /*font-size: 1.2rem;*/
+    max-width: 25rem;
+  }
+  section .index_content .btn-box {
+    max-width: 25rem;
+  }
+  /*---------------------- INDEX PAGE ----------------------*/
+  /*---------------------- ABOUT PAGE ----------------------*/
+  section .about_content {
+    width: 25rem;
+    top: 9rem;
+  }
+  section .about_content h1{
+    /*font-size: 2.6rem;*/
+  }
+  section .about_content p {
+    /*font-size: 1.0rem;*/
+    /*max-width: 20.0rem;*/
+    /*margin: 0 0 0 0 ;*/
+  }
+  section .about_content .btn-box {
+    width: 25rem;
+    /*height: 4rem;*/
+  }
+  section .about_content .btn-box .tab_links {
+    font-size: 1.3rem;
+    margin: 0 0 0 0;
+    justify-content: left;
+    width: 25rem;
+  }
+  /*--------------- TABS ---------------*/
+  #tools {
+    width: 25rem;
+  }
+  #tools ul li img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 0 0 0;
+  }
+  #tools ul li {
+    margin: 0 0.5rem 0 0;
+  }
+  #skills {
+    width: 25rem;
+  }
+  section .about_content #skills ul li.skills_title {
+    /*font-size: 1.1rem;*/
+    width: 25rem;
+  }
+  section .about_content #skills ul li.skills_text {
+    /*font-size: 0.9rem;*/
+    width: 25rem;
+  }
+  #education {
+    width: 25rem;
+  }
+  section .about_content #education ul li.education_title {
+    /*font-size: 1.1rem;*/
+    width: 25rem;
+  }
+  section .about_content #education ul li.education_text {
+    /*font-size: 0.9rem;*/
+    width: 25rem;
+  }
+  /*--------------- TABS ---------------*/
+  /*---------------------- ABOUT PAGE ----------------------*/
+  /*---------------------- PORTFOLIO PAGE ----------------------*/
+  section .portfolio_content {
+    width: 30rem;
+    top: 9rem;
+  }
+  section .portfolio_content h1{
+    /*font-size: 2.6rem;*/
+  }
+  /*--------------- TABS ---------------*/
+  section .portfolio_content .btn-box {
+    width: 30rem;
+  }
+  /*--------------- TABS ---------------*/
+  /*---------------------- PORTFOLIO PAGE ----------------------*/
+  /*---------------------- CONTACT PAGE ----------------------*/
+  section .contact_content {
+    width: 25rem;
+    top: 12rem;
+  }
+ section .contact_content .contact_form .form_item {
+    width: 25rem;
+  }
+  /*---------------------- CONTACT PAGE ----------------------*/
+}
+/*------------------------------- max-width:830px -------------------------------*/
+/*------------------------------- max-width:640px -------------------------------*/
+@media (max-width:640px){
+  /*---------------------- ALL PAGES ----------------------*/
+  /*--------------- HEADER ---------------*/
+  header {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  header #menu-icon {
+      margin-right: -1rem;
+  }
+  #menu-icon {
+      display: block;
+      left: 10rem;
+  }
+  .navbar {
+      position: absolute;
+      top: -19.5rem;
+      left: 0;
+      width:100%;
+      padding: 0 2.45rem;
+      background: var(--bg-color);
+      z-index: -1;
+      display: none;
+  }
+  .navbar.active {
+      top: 6rem;
+      display: block;
+  }
+  .navbar a {
+      display: block;
+      font-size: 2rem;
+      margin: 3rem 0;
+      transition: translateX(-20rem);
+      transition: 2s ease;
+      transition-delay: 0s;
+  }
+  /*--------------- HEADER ---------------*/
+  /*--------------- SECTION ---------------*/
+  section .language-buttons {
+    margin: 3rem -7rem 0 0;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  section .social-media {
+    margin: 0 -7rem 0 0;
+    bottom: 2rem;
+  }
+  /*--------------- SECTION ---------------*/
+
+  /*---------------------- ALL PAGES ----------------------*/
+  /*---------------------- INDEX PAGE ----------------------*/
+  section .index_content {
+    max-width: 22rem;
+    bottom: 15rem;
+    position: fixed;
+  }
+  section .index_content h1{
+    font-size: 2.5rem;
+    max-width: 22rem;
+    bottom: 6rem;
+  }
+  section .index_content .text-animate h2 {
+    font-size: 2rem;
+    max-width: 22rem;
+  }
+  section .index_content p {
+    font-size: 1.2rem;
+    max-width: 22rem;
+  }
+  section .index_content .btn-box {
+    max-width: 22rem;
+  }
+  /*---------------------- INDEX PAGE ----------------------*/
+  /*---------------------- ABOUT PAGE ----------------------*/
+  section .about_content {
+    width: 22rem;
+    top: 9rem;
+  }
+  section .about_content h1{
+    font-size: 3.0rem;
+    margin-bottom: 2rem;
+  }
+  section .about_content p {
+    font-size: 1.2rem;
+    max-width: 22rem;
+    margin: 0 0 0 0 ;
+  }
+  section .about_content .btn-box {
+    width: 22rem;
+    height: 4rem;
+  }
+  section .about_content .btn-box .tab_links {
+    font-size: 1.2rem;
+    margin: 0 0 0 0;
+    justify-content: left;
+    width: 22rem;
+  }
+  /*--------------- TABS ---------------*/
+  #tools {
+    width: 22rem;
+  }
+  #tools ul li img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 0 0 0;
+  }
+  #tools ul li {
+    margin: 0 0.5rem 0 0;
+  }
+  #skills {
+    width: 22rem;
+  }
+  section .about_content #skills ul li.skills_title {
+    font-size: 1.2rem;
+    width: 22rem;
+  }
+  section .about_content #skills ul li.skills_text {
+    font-size: 1.0rem;
+    width: 22rem;
+  }
+  #education {
+    width: 22rem;
+  }
+  section .about_content #education ul li.education_title {
+    font-size: 1.2rem;
+    width: 22rem;
+  }
+  section .about_content #education ul li.education_text {
+    font-size: 1.0rem;
+    width: 22rem;
+  }
+  /*--------------- TABS ---------------*/
+  /*---------------------- ABOUT PAGE ----------------------*/
+  /*---------------------- PORTFOLIO PAGE ----------------------*/
+  section .portfolio_content {
+    width: 22rem;
+    top: 10rem;
+  }
+  section .portfolio_content h1{
+    font-size: 3.0rem;
+  }
+  /*--------------- TABS ---------------*/
+  section .portfolio_content .btn-box {
+    width: 22rem;
+    height: 4rem;
+  }
+  section .portfolio_content .btn-box .tab_links {
+    font-size: 1.2rem;
+    margin: 0 0 0 0;
+    justify-content: left;
+  }
+  section .portfolio_content .tab_content ul li.item .text h4{
+    font-size: 1.2rem;
+  }
+  section .portfolio_content .tab_content ul li.item .text p{
+    font-size: 1.0rem;
+  }
+  section .portfolio_content .link {
+      font-size: 1.0rem;
+  }
+  /*--------------- TABS ---------------*/
+  /*---------------------- PORTFOLIO PAGE ----------------------*/
+  /*---------------------- CONTACT PAGE ----------------------*/
+  section .contact_content {
+    width: 22rem;
+    top: 12rem;
+  }
+  section .contact_content h1{
+    font-size: 3.0rem;
+  }
+ section .contact_content .contact_form .form_item {
+    width: 22rem;
+  }
+  /*---------------------- CONTACT PAGE ----------------------*/
+}
+/*------------------------------- max-width:640px -------------------------------*/
+/*------------------------------- max-width:430px -------------------------------*/
+@media (max-width:430px){
+  /*---------------------- ALL PAGES ----------------------*/
+  /*--------------- HEADER ---------------*/
+  header {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  header #menu-icon {
+      margin-right: -1rem;
+  }
+  #menu-icon {
+      display: block;
+      left: 10rem;
+  }
+  .navbar {
+      position: absolute;
+      top: -19.5rem;
+      left: 0;
+      width:100%;
+      padding: 0 2.45rem;
+      background: var(--bg-color);
+      z-index: -1;
+      display: none;
+  }
+  .navbar.active {
+      top: 6rem;
+      display: block;
+  }
+  .navbar a {
+      display: block;
+      font-size: 2rem;
+      margin: 3rem 0;
+      transition: translateX(-20rem);
+      transition: 2s ease;
+      transition-delay: 0s;
+  }
+  /*--------------- HEADER ---------------*/
+  /*--------------- SECTION ---------------*/
+  section .language-buttons {
+    margin: 3rem -8.4rem 0 0;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  section .social-media {
+    margin: 0 -8.4rem 0 0;
+    bottom: 2rem;
+  }
+  /*--------------- SECTION ---------------*/
+
+  /*---------------------- ALL PAGES ----------------------*/
+  /*---------------------- INDEX PAGE ----------------------*/
+  section .index_content {
+    max-width: 20rem;
+    bottom: 15rem;
+    position: fixed;
+  }
+  section .index_content h1{
+    font-size: 2.3rem;
+    max-width: 20rem;
+    bottom: 6rem;
+  }
+  section .index_content .text-animate h2 {
+    font-size: 1.8rem;
+    max-width: 20rem;
+  }
+  section .index_content p {
+    font-size: 1.2rem;
+    max-width: 20rem;
+  }
+  section .index_content .btn-box {
+    max-width: 20rem;
+  }
+  /*---------------------- INDEX PAGE ----------------------*/
+  /*---------------------- ABOUT PAGE ----------------------*/
+  section .about_content {
+    width: 20rem;
+    top: 6rem;
+  }
+  section .about_content h1{
+    font-size: 2.6rem;
+  }
+  section .about_content p {
+    font-size: 1.0rem;
+    max-width: 20.0rem;
+    margin: 0 0 0 0 ;
+  }
+  section .about_content .btn-box {
+    width: 20.0rem;
+    height: 4rem;
+  }
+  section .about_content .btn-box .tab_links {
+    font-size: 1.0rem;
+    margin: 0 0 0 0;
+    justify-content: left;
+    width: 20rem;
+  }
+  /*--------------- TABS ---------------*/
+  #tools {
+    width: 20rem;
+  }
+  #tools ul li img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 0 0 0;
+  }
+  #tools ul li {
+    margin: 0 0.5rem 0 0;
+  }
+  #skills {
+    width: 20rem;
+  }
+  section .about_content #skills ul li.skills_title {
+    font-size: 1.1rem;
+    width: 20rem;
+  }
+  section .about_content #skills ul li.skills_text {
+    font-size: 0.9rem;
+    width: 20rem;
+  }
+  #education {
+    width: 20rem;
+  }
+  section .about_content #education ul li.education_title {
+    font-size: 1.1rem;
+    width: 20rem;
+  }
+  section .about_content #education ul li.education_text {
+    font-size: 0.9rem;
+    width: 20rem;
+  }
+  /*--------------- TABS ---------------*/
+  /*---------------------- ABOUT PAGE ----------------------*/
+  /*---------------------- PORTFOLIO PAGE ----------------------*/
+  section .portfolio_content {
+    width: 20rem;
+    top: 6rem;
+  }
+  section .portfolio_content h1{
+    font-size: 2.6rem;
+  }
+  /*--------------- TABS ---------------*/
+  section .portfolio_content .btn-box {
+    width: 20rem;
+    height: 4rem;
+  }
+  section .portfolio_content .btn-box .tab_links {
+    font-size: 1.0rem;
+    margin: 0 0 0 0;
+    justify-content: left;
+  }
+  section .portfolio_content .tab_content ul li.item .text h4{
+    font-size: 1.2rem;
+  }
+  section .portfolio_content .tab_content ul li.item .text p{
+    font-size: 0.9rem;
+  }
+  section .portfolio_content .link {
+      font-size: 0.9rem;
+  }
+  /*--------------- TABS ---------------*/
+  /*---------------------- PORTFOLIO PAGE ----------------------*/
+  /*---------------------- CONTACT PAGE ----------------------*/
+  section .contact_content {
+    width: 20rem;
+    top: 9rem;
+  }
+  section .contact_content h1{
+    font-size: 2.6rem;
+  }
+ section .contact_content .contact_form .form_item {
+    width: 20rem;
+  }
+  /*---------------------- CONTACT PAGE ----------------------*/
+}
+/*------------------------------- max-width:430px -------------------------------*/
+/*----------------------------------- BREAK POINTS -----------------------------------*/
+
+
+

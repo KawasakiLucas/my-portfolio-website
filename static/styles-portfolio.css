@@ -1,0 +1,157 @@
+/*--------------------------- PORTFOLIO PAGE ---------------------------*/
+.portfolio_content {
+  max-width: 40rem;
+  position: fixed;
+  top: 150px;
+  left: 9%;
+}
+.portfolio_content h1 {
+  font-family: 'Tourney';
+  color: var(--main-color);
+  font-size: var(--fs-h1);
+  font-weight: 700;
+}
+.btn-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 39.5rem;
+  height: 5rem;
+}
+.btn-box .tab_links {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 100%;
+  border-radius: .8rem;
+  font-size: var(--fs-h4);
+  font-weight: 600;
+  letter-spacing: .1rem;
+  z-index: 1;
+  overflow: hidden;
+  color: var(--text-color);
+}
+.btn-box .tab_links:hover,
+.btn-box .tab_links.active_link {
+  color: var(--main-color);
+  transition: .3s;
+}
+.btn-box .tab_links::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--bg-color);
+  z-index: -1;
+  transition: .5s;
+}
+.btn-box .tab_links::after{
+	content: '';
+	width: 0;
+	height: 3px;
+	background: var(--color-primary);
+	position: absolute;
+	left: 0;
+	bottom: -8px;
+	transition: .5s;
+}
+.btn-box .tab_links.active_link::after{
+	width: 50%;
+}
+.tab_content ul li{
+	list-style: none;
+	margin: 10px 0;
+	color: var(--color-black);
+	text-align: left;
+}
+.tab_content ul li span{
+	font-size: 1.5rem;
+}
+.tab_content{
+	display: none;
+}
+.active_tab{
+	display: block;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* Each item containing an object and text */
+.item{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.item .image {
+  transition: all 0.7s ease;
+}
+.item .image img {
+  position: relative;
+  width: 9.5rem;
+  height: 6rem;
+  background: transparent;
+  border: .2rem solid var(--main-color);
+  border-radius: 10%;
+  font-size: 40px;
+  color: var(--main-color);
+  z-index: 1;
+  overflow: hidden;
+}
+.overlay {
+  width: 9.5rem;
+  height: 6rem;
+  border-radius: 10%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+  overflow: hidden;
+  z-index: -1;
+}
+.item .image:hover {
+  transform: scale(1.1);
+}
+.image:hover .overlay{
+  background: linear-gradient(rgba(0, 0, 0, 0.08), #141415);
+  border: .2rem solid var(--main-color);
+  z-index: 1;
+  transition: all 0s ease;
+}
+.image:hover a {
+  color: var(--main-color);
+}
+a {
+  color: transparent;
+  font-size: 2rem;
+}
+.text {
+  margin-left: 1rem;
+}
+/* Styles for the text */
+.text h4 {
+  font-size: var(--fs-h4); /* Adjust font size as needed */
+  color: var(--main-color);
+}
+/* Styles for the text */
+.text p {
+  font-size: var(--fs-p0); /* Adjust font size as needed */
+  color: var(--text-color);
+}
+.link{
+  margin-top: 0.5rem;
+  font-size: var(--fs-p0); /* Adjust font size as needed */
+  color: var(--text-color);
+}
+.link:hover {
+  color: var(--main-color);
+}
+/*--------------------------- PORTFOLIO PAGE ---------------------------*/
