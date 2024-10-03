@@ -33,7 +33,21 @@
   <!-------------------------------- SECTION -------------------------------->
   <section>
     <!------------------------- CONTENT ------------------------->
-
+    <div class="contact_content">
+      <h1 class="translatable" data-key="contact_me">Contact me</h1>
+      <!----------- CONTACT FORM ----------->
+      <div class="contact_form">
+        <!--<form action="{{ url_for('contact') }}" method="post">-->
+        <form method="post">
+          <input id="name" name="user_name" type="text" placeholder="Your Name" class="form_item" required>
+          <input id="email" name="email" type="email" placeholder="Your Email Address" class="form_item" required>
+          <input id="subject" name="subject" type="text" placeholder="Subject" class="form_item" required>
+          <textarea id="message" name="text" cols="30" rows="15" placeholder="Your message" class="form_item" required></textarea>
+          <button id="submit" value="Submit" type="submit" class="send form_item_button translatable" data-key="submit">Submit</button>
+        </form>
+      </div>
+      <!----------- CONTACT FORM ----------->
+    </div>
     <!------------------------- CONTENT ------------------------->
     <!----------- LANGUAGE BUTTONS ----------->
     <div class="language-buttons">
